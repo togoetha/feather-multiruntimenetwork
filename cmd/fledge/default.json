@@ -1,0 +1,9 @@
+{
+  "serverCertPath": "ca.crt",
+  "serverKeyPath": "ca.key",
+  "providerConfig": "provider.json",
+  "networking": "legacy",
+  "agentMode": "cluster",
+  "diskConfigs": "",
+  "enableWarrens": false
+}

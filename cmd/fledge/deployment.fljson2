@@ -1,0 +1,20 @@
+{
+  "apiVersion": "v1",
+  "kind": "Pod",
+  "metadata": {
+    "name": "debug",
+    "namespace": "vmtest"
+  },
+  "spec": {
+    "containers": [
+      {
+        "name": "app",
+        "image": "gitlab.ilabt.imec.be:4567/fledge/benchmark/minimal:1.0.0-capstan",
+        "imagePullPolicy": "Always",
+        "command": [
+          "/main"
+        ]
+      }
+    ]
+  }
+}
